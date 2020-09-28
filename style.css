@@ -35,7 +35,7 @@ body {
     #nav a {
     display:block;
     text-align:center;
-    width:180px; /
+    width:180px; 
     text-decoration:none; 
     }
           
@@ -55,8 +55,8 @@ body {
 
       .secondpara {
           font-size: 30px;
-          text-align:center;
-          color: #333;
+          text-align: center;
+          color: #333;;
       }
     
       .footer {
