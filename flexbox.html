@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.flexbox-item {
+border: coral double 20px;
+width: 550px;
+height: 400px;
+
+}
+
+.flexone {
+    flex-shrink: 0;
+}
+
+.flextwo {
+    flex-grow: 2;
+}
+
+.flexthree {
+    flex-shrink: 0;
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>This is a Flexbox Test</h1>
+    <img src="images/You Are What You Eat.png">
+
+    <div class="flexbox-container">
+        <div class="flexbox-item flexone">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex suscipit, eaque repellat tempore
+                exercitationem reprehenderit cupiditate perspiciatis dicta magni ad quas veniam vel nisi! Vel iure
+                cupiditate sapiente hic voluptatem!</p>
+
+
+        </div>
+
+        <div class="flexbox-item flextwo">
+
+            <!--content-->
+            <h2>This is the flex two</h2>
+            <img src="images/You Are What You Eat.png">
+
+        </div>
+
+        <div class="flexbox-item flexthird">
+
+            <!--content-->
+            <img src="images/You Are What You Eat.png">
+
+
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

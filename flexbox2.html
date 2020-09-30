@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        h1,
+        h2 {
+            text-align: center;
+        }
+
+        .flexbox-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .flexbox-item {
+            border: coral double 20px;
+            width: 700px;
+            height: 450px;
+        }
+
+        .one {
+            align-self: center;
+            flex-flow: wrap;
+            flex-shrink: 0;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: cursor;
+            color: purple;
+        }
+
+        .two {
+            flex-shrink: 1;
+            align-self: center;
+            height: 250px;
+
+        }
+
+        .three {
+            flex-shrink: 0;
+            height: 20px;
+            width: 450px;
+            align-self: center;
+        }
+
+        .second-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        
+        .five {
+           flex-shrink: 0;
+           
+        }
+    </style>
+    <!--add an internal css styl element-->
+</head>
+
+<body>
+
+    <h1>Travel Blog</h1>
+
+
+
+    <h2>"<i>Take only memories. Leave only footprints"</i> -Chief Seattle -</h2>
+
+    <div class="flexbox-container">
+
+        <div class="flexbox-item one">
+            <!--content-->
+            <img src="https://cdn.kimkim.com/files/a/content_articles/featured_photos/a9494aa27a720a0d46561fadbcccd1d3bf588cd7/big-7d16f2d476e9ba39cad3455d98561512.jpg"
+                width="700" height="450">
+
+        </div>
+
+        <div class="flexbox-item two">
+
+            <!--add a paragraphy about country-->
+            <!-- <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/04/Chavalit-Likitratcharoen_-EyeEm_GettyImages-753335629.jpg?fit=2048%2C2048px&ssl=1"
+                width="700" height="450"> -->
+            <p>Summer (January to March) and winter (June to August) are peak seasons. Chileans vacation in January and
+                July as well as for the week of September 18, when they celebrate Fiestas Patrias (Independence Day).
+
+                Given that the most southerly point of Chilean Patagonia is just 900 miles from Antarctica, expect the
+                unexpected on the weather front. While single-digit temperatures year-round are the norm in Punta Arenas
+                — where you can experience snow and sun in an hour — the Chiloé archipelago in northern Patagonia enjoys
+                a sunny summer with average 68 degree days, though it’s very rainy June through August. Note: always be
+                prepared with extra layers.</p>
+
+        </div>
+
+        <div class="flexbox-item three">
+            <!--add an aside with a link about your country-->
+            <!-- <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/04/diego-jimenez-258119-unsplash.jpg?fit=2048%2C2048px&ssl=1"
+                width="700" height="450"> -->
+            <aside> Learn more about the guide to travel to Chile, Patagonia!
+                <a href="https://thepointsguy.com/guide/how-to-travel-to-chile-patagonia/">Click Here!</a>
+
+            </aside>
+
+        </div>
+
+
+    </div>
+
+    <!--Add h2 for country #2-->
+
+    <h2><i>"Seuol, I'll see you soon</i>"</i></h2>
+
+
+    <!--start second container-->
+
+    <div class="flexbox-container second-container">
+
+        <div class="flexbox-item four">
+            <!--content-->
+            <img src="https://www.state.gov/wp-content/uploads/2019/04/South-Korea-2109x1406.jpg" width="700"
+                height="450">
+
+        </div>
+
+        <div class="flexbox-item five">
+
+            <!--add a paragraphy about country-->
+            <!-- <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/04/Chavalit-Likitratcharoen_-EyeEm_GettyImages-753335629.jpg?fit=2048%2C2048px&ssl=1"
+                width="700" height="450"> -->
+            <p>"Peak summer, from late June to late August, starts off with the monsoon season, when the country
+                receives some 60% of its annual rainfall, and is followed by unpleasantly hot and humid weather.
+
+                Although air-conditioning makes summers much more bearable these days, many locals flee the muggy cities
+                for the mountains, beaches and islands, which become crowded, and accommodation prices double. There is
+                also the chance of a typhoon or two."
+
+                - Lonely Planet
+
+            </p>
+
+        </div>
+
+        <div class="flexbox-item six">
+            <!--add an aside with a link about your country-->
+            <!-- <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/04/diego-jimenez-258119-unsplash.jpg?fit=2048%2C2048px&ssl=1"
+                width="700" height="450"> -->
+            <aside> Learn more about the guide to travel to Chile, Patagonia!
+                <a href="https://thepointsguy.com/guide/how-to-travel-to-chile-patagonia/">Click Here!</a>
+
+            </aside>
+
+        </div>
+
+
+    </div>
+
+    <h2>"<i>"Let there be Greece"</i></i></h2>
+
+    <!--start my third container-->
+    <div class="flexbox-container third-container">
+
+        <div class="flexbox-item seven">
+            <!--content-->
+            <img src="https://ns.clubmed.com/nmea/2018/B2C/341/RWD/destination/Greece/greece_highlights1.jpg"
+                width="700" height="450">
+
+        </div>
+
+        <div class="flexbox-item eight">
+
+            <!--add a paragraphy about country-->
+            <!-- <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/04/Chavalit-Likitratcharoen_-EyeEm_GettyImages-753335629.jpg?fit=2048%2C2048px&ssl=1"
+                width="700" height="450"> -->
+            <p>Greece is home to the first advanced civilizations in Europe and is considered the birthplace of Western
+                civilisation, beginning with the Cycladic civilization on the islands of the Aegean Sea at around 3200
+                BC, the Minoan civilization in Crete (2700–1500 BC), and then the Mycenaean civilization on the mainland
+            </p>
+
+        </div>
+
+        <div class="flexbox-item nine">
+            <!--add an aside with a link about your country-->
+            <!-- <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/04/diego-jimenez-258119-unsplash.jpg?fit=2048%2C2048px&ssl=1"
+                width="700" height="450"> -->
+            <aside> Learn more about the guide to travel to Chile, Patagonia!
+                <a href="https://thepointsguy.com/guide/how-to-travel-to-chile-patagonia/">Click Here!</a>
+
+            </aside>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
