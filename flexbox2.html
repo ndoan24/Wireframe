@@ -52,14 +52,57 @@
 
         .second-container {
             display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+        .four {
+            flex-grow: 2;
+
+        }
+
+        .five {
+            flex-shrink: 0;
+            height: 200px;
+        }
+
+        .six {
+            flex-grow: 4;
+            height: 80px;
+        }
+
+        .third-container {
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+
+        .seven {
+            flex-grow: 4;
+        }
+
+        .eight {
+            flex-grow: 4;
+
+        }
+
+        .nine {
+
+            flex-grow: 4;
+            align-self: center;
+        }
+
+        .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        text-align: center;
         }
         
-        .five {
-           flex-shrink: 0;
-           
-        }
     </style>
     <!--add an internal css styl element-->
 </head>
@@ -162,6 +205,16 @@
     <h2>"<i>"Let there be Greece"</i></i></h2>
 
     <!--start my third container-->
+
+
+
+    <!--start of third container-->
+    <!--only include 2 items-->
+    <!--embed a video-->
+    <!--start a fourth container-->
+    <!--add a footer that stays at the bottom of the page and streches 100% of the width-->
+
+
     <div class="flexbox-container third-container">
 
         <div class="flexbox-item seven">
@@ -187,16 +240,29 @@
             <!--add an aside with a link about your country-->
             <!-- <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/04/diego-jimenez-258119-unsplash.jpg?fit=2048%2C2048px&ssl=1"
                 width="700" height="450"> -->
-            <aside> Learn more about the guide to travel to Chile, Patagonia!
-                <a href="https://thepointsguy.com/guide/how-to-travel-to-chile-patagonia/">Click Here!</a>
 
-            </aside>
 
+            <iframe width="1460" height="415" src="https://www.youtube.com/embed/NJQpXiugmUg" frameborder="0"
+                allow="acceleometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
 
 
     </div>
 
+
+    <div class="flexbox-container fourth-container">
+
+
+        <footer>
+            <strong>This is the footer</strong>
+
+        </footer>
+
+    </div>
+
+
+    </div>
 
 </body>
 
